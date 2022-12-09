@@ -1,0 +1,205 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.headings {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.name {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.subname {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.container-fluid {
+  padding: 7% 15% 5% 15%;
+}
+
+.colored {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  margin: 0 0 4.5% 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.nav-item {
+  padding: 0 1%;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+/* title */
+#title .container-fluid {
+  padding: 3% 15% 5% 15%;
+  text-align: left;
+}
+
+.profile_photo {
+  position: relative;
+}
+
+.profile_front {
+  border-radius: 100%;
+  height: 12rem;
+  width: 12rem;
+}
+
+.profile_back {
+  border-radius: 100%;
+  height: 12rem;
+  width: 12rem;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.profile_back:hover {
+  opacity: 1;
+}
+
+.profile_front:hover {
+  opacity: 0;
+}
+
+/* Features */
+
+.skills {
+  padding: 5% 5% 5% 0;
+}
+
+.skill-img {
+  margin-bottom: 2rem;
+  border-radius: 100%;
+  width: 8rem;
+  height: 8rem;
+  opacity: 1;
+}
+
+.skill-img:hover {
+  opacity: 0.5;
+}
+
+/* Achievements */
+#Achievements {
+  background-color: #ef8172;
+}
+
+
+.achieve-item{
+  padding: 7% 15%;
+  height: 15rem;
+}
+/* Academics */
+.card{
+  height: 25rem;
+}
+.acad-col {
+  padding: 5% 1% 1% 1%;
+}
+
+/* Project */
+.project-item
+{
+  padding: 7% 15%;
+  height: 20rem;
+}
+
+/* Footer */
+.copywrite {
+  padding-top: 5%;
+}
+
+@media (max-width: 992px) {
+  .profile_photo {
+    text-align: center;
+  }
+
+  .profile_back {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .headings {
+    text-align: center;
+  }
+  .card{
+    height: 20rem;
+  }
+  .achieve-item{
+    height: 20rem;
+  }
+  .project-item{
+    height: 27rem;
+  }
+}
+
+@media (max-width: 470px) {
+  .headings {
+    font-size: 2rem;
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .subname {
+    font-size: 1.2rem;
+  }
+  .project-item{
+    height: 22rem;
+  }
+}
+
+@media (max-width: 357px) {
+  .headings {
+    font-size: 1.5rem;
+  }
+
+  .name {
+    font-size: 1.1rem;
+  }
+
+  .subname {
+    font-size: 1.1rem;
+  }
+  .project-item{
+    height: 15rem;
+  }
+}
